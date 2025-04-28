@@ -86,7 +86,7 @@ export const Editor = () => {
             <div className="border border-input rounded-md">
               <div className="text-sm font-semibold p-2.5">Tools</div>
 
-              <div className="p-4 border-y border-dashed border-input text-center text-muted-foreground">
+              <div className="p-4 border-y text-sm border-dashed border-input text-center text-muted-foreground">
                 No tools added yet.
               </div>
 
@@ -102,7 +102,7 @@ export const Editor = () => {
             <div className="border border-input rounded-md">
               <div className="text-sm font-semibold p-2.5">System Prompts</div>
 
-              <div className="p-4 border-y border-dashed border-input text-center text-muted-foreground">
+              <div className="p-4 border-y border-dashed text-sm border-input text-center text-muted-foreground">
                 No prompts added yet.
               </div>
 
