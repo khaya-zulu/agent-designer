@@ -1,5 +1,5 @@
 import { auth } from '@/app/(auth)/auth';
-import { Designer } from '@/components/designer';
+import { Editor } from '@/components/editor';
 import { redirect } from 'next/navigation';
 
 export default async function Page() {
@@ -9,5 +9,5 @@ export default async function Page() {
     redirect('/api/auth/guest');
   }
 
-  return <Designer />;
+  return <Editor />;
 }

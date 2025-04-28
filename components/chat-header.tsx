@@ -71,15 +71,15 @@ function PureChatHeader({
         />
       )}
 
-      <Button 
-        variant="outline" 
-        className='order-1 md:order-4 md:px-2 md:h-[34px] flex gap-2' 
+      <Button
+        variant="outline"
+        className="order-1 md:order-4 md:px-2 md:h-[34px] flex gap-2"
         onClick={() => {
-          router.push("/design")
+          router.push('/editor');
         }}
       >
         <Palette />
-        Agent Designer
+        Agent Editor
       </Button>
     </header>
   );
